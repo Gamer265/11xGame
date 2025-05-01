@@ -15,6 +15,6 @@ __• Safe Banks Withdrawal__
 
 **Play With 11x And Make Safe Money 🪙**
     """
-    return await event.reply(txt, buttons=[[Button.url("Play", url="https://t.me/Game11xBot/play")]])
+    return await event.reply(txt, buttons=[[Button.url("Play", url="https://t.me/Game11xBot/play")]],file="photo.jpg")
 
 bot.loop.run_forever()
